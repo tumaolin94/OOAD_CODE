@@ -13,6 +13,10 @@ public class Bark {
     return sound;
   }
 
+  public void setSound(String sound) {
+    this.sound = sound;
+  }
+
   @Override
   public boolean equals(Object o) {
     if(o instanceof Bark){
@@ -28,5 +32,12 @@ public class Bark {
   @Override
   public int hashCode() {
     return Objects.hash(sound);
+  }
+
+  @Override
+  public String toString() {
+    return "Bark{" +
+        "sound='" + sound + '\'' +
+        '}';
   }
 }
