@@ -1,4 +1,4 @@
-package chapter5;
+package chapter5_1;
 
 public enum Builder {
   FENDER, MARTIN, GIBSON, COLLINGS, OLSON, RYAN, PRS, ANY;

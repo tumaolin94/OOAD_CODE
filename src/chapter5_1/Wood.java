@@ -1,4 +1,4 @@
-package chapter5;
+package chapter5_1;
 
 public enum Wood {
   INDIAN_ROSEWOOD, BRAZILIAN_ROSEWOOD;
