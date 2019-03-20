@@ -2,29 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7009048-9a96-4fca-88cf-fd47a78ad266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/BookItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/BookLending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/BookManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/BookReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/Catalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/Fine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/Librarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/LibraryCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/myEnum/AccountStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/myEnum/BookFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/myEnum/BookStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryCase/myEnum/ReservationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingMachine/Bucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingMachine/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingMachine/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingMachine/VendingMachineFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingMachine/VendingMachineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingMachine/VendingMachineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingMachine/myEnum/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingMachine/myEnum/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingMachine/myException/NotFullPaidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingMachine/myException/NotSufficientChangeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingMachine/myException/SoldOutException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ooad/ticTokToeCase/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ooad/ticTokToeCase/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ooad/ticTokToeCase/TicTokToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ooad/ticTokToeCase/TicTokToe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ticTokToeCase/TicTokToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ticTokToeCase/TicTokToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ooad.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ooad.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +39,7 @@
         <counts>
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="138" />
+          <entry key="java" value="149" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
@@ -57,18 +47,18 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="138" />
+          <entry key="JAVA" value="149" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11482" />
+          <entry key="java" value="12800" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11482" />
+          <entry key="JAVA" value="12800" />
         </counts>
       </usages-collector>
     </session>
@@ -76,235 +66,153 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LibraryCase/Librarian.java">
+        <entry file="file://$PROJECT_DIR$/src/vendingMachine/VendingMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="150">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vendingMachine/VendingMachineFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LibraryCase/Member.java">
+        <entry file="file://$PROJECT_DIR$/src/vendingMachine/VendingMachineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="60" selection-start-line="60" selection-start-column="2" selection-end-line="62" selection-end-column="45" />
+            <state relative-caret-position="-364">
+              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#2568#2569#0" expanded="true" />
-                <element signature="e#2589#2590#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#2675#2676#0" expanded="true" />
+                <element signature="e#2733#2734#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LibraryCase/Fine.java">
+        <entry file="file://$PROJECT_DIR$/src/vendingMachine/myEnum/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding>
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LibraryCase/BookLending.java">
+        <entry file="file://$PROJECT_DIR$/src/vendingMachine/VendingMachineImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding>
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LibraryCase/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-              <folding>
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LibraryCase/myEnum/ReservationStatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LibraryCase/BookItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="152">
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#1094#1095#0" expanded="true" />
-                <element signature="e#1129#1130#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1263#1264#0" expanded="true" />
-                <element signature="e#1286#1287#0" expanded="true" />
-                <element signature="e#1332#1333#0" expanded="true" />
-                <element signature="e#1362#1363#0" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
-                <element signature="e#1430#1431#0" expanded="true" />
-                <element signature="e#1486#1487#0" expanded="true" />
-                <element signature="e#1532#1533#0" expanded="true" />
-                <element signature="e#1570#1571#0" expanded="true" />
-                <element signature="e#1602#1603#0" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
-                <element signature="e#1708#1709#0" expanded="true" />
+                <element signature="e#235#241#0" expanded="true" />
+                <element signature="e#242#248#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#4481#4482#0" expanded="true" />
+                <element signature="e#4508#4509#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LibraryCase/Catalog.java">
+        <entry file="file://$PROJECT_DIR$/src/vendingMachine/myException/SoldOutException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="30">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LibraryCase/BookReservation.java">
+        <entry file="file://$PROJECT_DIR$/src/vendingMachine/myException/NotSufficientChangeException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="180">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LibraryCase/Address.java">
+        <entry file="file://$PROJECT_DIR$/src/vendingMachine/myException/NotFullPaidException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vendingMachine/Inventory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vendingMachine/Bucket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -315,6 +223,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
       </list>
@@ -323,6 +232,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>search</find>
+      <find>SoldOutException</find>
       <find>fetchReservationDetails</find>
     </findStrings>
   </component>
@@ -332,17 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter5_2/FindInstumentTester.java" />
-        <option value="$PROJECT_DIR$/src/ATMCase/Card.java" />
-        <option value="$PROJECT_DIR$/src/ATMCase/TranscriptionType.java" />
-        <option value="$PROJECT_DIR$/src/ATMCase/TransactionType.java" />
-        <option value="$PROJECT_DIR$/src/ATMCase/Screen.java" />
-        <option value="$PROJECT_DIR$/src/ATMCase/Keypad.java" />
-        <option value="$PROJECT_DIR$/src/ATMCase/DepositSlot.java" />
-        <option value="$PROJECT_DIR$/src/ATMCase/CardReader.java" />
-        <option value="$PROJECT_DIR$/src/ATMCase/Account.java" />
-        <option value="$PROJECT_DIR$/src/ATMCase/CashDispenser.java" />
-        <option value="$PROJECT_DIR$/src/ATMCase/Transaction.java" />
         <option value="$PROJECT_DIR$/src/ATMCase/BalanceInquiry.java" />
         <option value="$PROJECT_DIR$/src/ATMCase/Withdrawl.java" />
         <option value="$PROJECT_DIR$/src/ATMCase/Deposit.java" />
@@ -383,6 +282,17 @@
         <option value="$PROJECT_DIR$/src/LibraryCase/BookLending.java" />
         <option value="$PROJECT_DIR$/src/LibraryCase/Fine.java" />
         <option value="$PROJECT_DIR$/src/LibraryCase/Member.java" />
+        <option value="$PROJECT_DIR$/src/vendingMachine/VendingMachineFactory.java" />
+        <option value="$PROJECT_DIR$/src/vendingMachine/Item.java" />
+        <option value="$PROJECT_DIR$/src/vendingMachine/myEnum/Coin.java" />
+        <option value="$PROJECT_DIR$/src/vendingMachine/VendingMachine.java" />
+        <option value="$PROJECT_DIR$/src/vendingMachine/Bucket.java" />
+        <option value="$PROJECT_DIR$/src/vendingMachine/myException/NotFullPaidException.java" />
+        <option value="$PROJECT_DIR$/src/vendingMachine/myException/NotSufficientChangeException.java" />
+        <option value="$PROJECT_DIR$/src/vendingMachine/myException/SoldOutException.java" />
+        <option value="$PROJECT_DIR$/src/vendingMachine/VendingMachineImpl.java" />
+        <option value="$PROJECT_DIR$/src/vendingMachine/Inventory.java" />
+        <option value="$PROJECT_DIR$/src/vendingMachine/VendingMachineTest.java" />
       </list>
     </option>
   </component>
@@ -423,7 +333,14 @@
               <item name="ooad" type="b2602c69:ProjectViewProjectNode" />
               <item name="ooad" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LibraryCase" type="462c0819:PsiDirectoryNode" />
+              <item name="vendingMachine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ooad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ooad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vendingMachine" type="462c0819:PsiDirectoryNode" />
+              <item name="myException" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -432,9 +349,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553034843283" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553125972271" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -449,6 +369,7 @@
       <recent name="chapter5" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vendingMachine.myException" />
       <recent name="LibraryCase.myEnum" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -471,59 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TicTokToe">
-    <configuration name="ATMTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ATMCase.ATMTest" />
-      <module name="ooad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ATMCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DogDoorSimulator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.DogDoorSimulator" />
-      <module name="ooad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DogDoorSimulator (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter4.DogDoorSimulator" />
-      <module name="ooad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindInstumentTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5_1.FindInstumentTester" />
-      <module name="ooad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter5_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.VendingMachineTest.testBuyItemWithMorePrice">
     <configuration name="FindInstumentTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter5_2.FindInstumentTester" />
       <module name="ooad" />
@@ -537,33 +406,98 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTokToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ticTokToeCase.TicTokToe" />
+    <configuration name="VendingMachineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ooad" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ticTokToeCase.myEnum.*" />
+          <option name="PATTERN" value="vendingMachine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="vendingMachine" />
+      <option name="MAIN_CLASS_NAME" value="vendingMachine.VendingMachineTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendingMachineTest.testBuyItemWithExactPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ooad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vendingMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vendingMachine" />
+      <option name="MAIN_CLASS_NAME" value="vendingMachine.VendingMachineTest" />
+      <option name="METHOD_NAME" value="testBuyItemWithExactPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendingMachineTest.testBuyItemWithMorePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ooad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vendingMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vendingMachine" />
+      <option name="MAIN_CLASS_NAME" value="vendingMachine.VendingMachineTest" />
+      <option name="METHOD_NAME" value="testBuyItemWithMorePrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendingMachineTest.testNotSufficientChangeException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ooad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vendingMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vendingMachine" />
+      <option name="MAIN_CLASS_NAME" value="vendingMachine.VendingMachineTest" />
+      <option name="METHOD_NAME" value="testNotSufficientChangeException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendingMachineTest.testSoldOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ooad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vendingMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vendingMachine" />
+      <option name="MAIN_CLASS_NAME" value="vendingMachine.VendingMachineTest" />
+      <option name="METHOD_NAME" value="testSoldOut" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DogDoorSimulator (1)" />
-      <item itemvalue="Application.DogDoorSimulator (2)" />
-      <item itemvalue="Application.FindInstumentTester" />
-      <item itemvalue="Application.ATMTest" />
-      <item itemvalue="Application.TicTokToe" />
+      <item itemvalue="JUnit.VendingMachineTest" />
+      <item itemvalue="JUnit.VendingMachineTest.testNotSufficientChangeException" />
+      <item itemvalue="JUnit.VendingMachineTest.testSoldOut" />
+      <item itemvalue="JUnit.VendingMachineTest.testBuyItemWithExactPrice" />
+      <item itemvalue="JUnit.VendingMachineTest.testBuyItemWithMorePrice" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TicTokToe" />
-        <item itemvalue="Application.ATMTest" />
-        <item itemvalue="Application.FindInstumentTester" />
-        <item itemvalue="Application.DogDoorSimulator (2)" />
-        <item itemvalue="Application.DogDoorSimulator (1)" />
+        <item itemvalue="JUnit.VendingMachineTest.testBuyItemWithMorePrice" />
+        <item itemvalue="JUnit.VendingMachineTest" />
+        <item itemvalue="JUnit.VendingMachineTest.testBuyItemWithExactPrice" />
+        <item itemvalue="JUnit.VendingMachineTest.testSoldOut" />
+        <item itemvalue="JUnit.VendingMachineTest.testNotSufficientChangeException" />
       </list>
     </recent_temporary>
   </component>
@@ -581,18 +515,50 @@
       <workItem from="1552078739288" duration="6031000" />
       <workItem from="1552158529533" duration="1885000" />
       <workItem from="1552170436987" duration="1255000" />
-      <workItem from="1552273750726" duration="4069000" />
+      <workItem from="1552273750726" duration="7716000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="VendingMachineTest_testSoldOut - 2019.03.20 at 16h 50m 20s.xml">
+      <configuration name="VendingMachineTest.testSoldOut" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest_testSoldOut - 2019.03.20 at 16h 50m 44s.xml">
+      <configuration name="VendingMachineTest.testSoldOut" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest_testSoldOut - 2019.03.20 at 16h 51m 23s.xml">
+      <configuration name="VendingMachineTest.testSoldOut" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest - 2019.03.20 at 16h 51m 32s.xml">
+      <configuration name="VendingMachineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest_testBuyItemWithExactPrice - 2019.03.20 at 16h 51m 49s.xml">
+      <configuration name="VendingMachineTest.testBuyItemWithExactPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest_testBuyItemWithMorePrice - 2019.03.20 at 16h 51m 59s.xml">
+      <configuration name="VendingMachineTest.testBuyItemWithMorePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest - 2019.03.20 at 16h 52m 13s.xml">
+      <configuration name="VendingMachineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest_testBuyItemWithExactPrice - 2019.03.20 at 16h 52m 18s.xml">
+      <configuration name="VendingMachineTest.testBuyItemWithExactPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest - 2019.03.20 at 16h 52m 30s.xml">
+      <configuration name="VendingMachineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VendingMachineTest_testBuyItemWithMorePrice - 2019.03.20 at 16h 52m 53s.xml">
+      <configuration name="VendingMachineTest.testBuyItemWithMorePrice" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35935000" />
+    <option name="totallyTimeSpent" value="39582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23962805" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23962805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -601,7 +567,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -629,77 +595,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ATMCase/transaction/BalanceInquiry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_2/myEnum/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ATMCase/ATM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-395">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ATMCase/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ATMCase/Keypad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ATMCase/ATMTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ATMCase/TransactionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ticTokToeCase/myEnum.java" />
-    <entry file="file://$PROJECT_DIR$/src/chapter5_2/myEnum/Style.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_2/myEnum/InstrumentType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_2/myEnum/Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter5_1/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -718,6 +613,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -725,6 +623,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="3" selection-start-line="8" selection-start-column="15" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,8 +1097,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LibraryCase/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="60" selection-start-line="60" selection-start-column="2" selection-end-line="62" selection-end-column="45" />
+        <state relative-caret-position="735">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#275#276#0" expanded="true" />
@@ -1206,6 +1107,152 @@
             <element signature="e#384#385#0" expanded="true" />
             <element signature="e#2568#2569#0" expanded="true" />
             <element signature="e#2589#2590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendingMachine/myEnum/Coin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendingMachine/myEnum/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendingMachine/Bucket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendingMachine/myException/SoldOutException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendingMachine/myException/NotFullPaidException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendingMachine/myException/NotSufficientChangeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendingMachine/VendingMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendingMachine/VendingMachineFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendingMachine/VendingMachineImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#241#0" expanded="true" />
+            <element signature="e#242#248#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#4481#4482#0" expanded="true" />
+            <element signature="e#4508#4509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendingMachine/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendingMachine/VendingMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+            <element signature="e#2733#2734#0" expanded="true" />
           </folding>
         </state>
       </provider>
